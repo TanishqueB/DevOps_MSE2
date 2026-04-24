@@ -1,0 +1,10 @@
+cd ~
+touch first.html
+echo "<h1>Hello</h1>">>first.html                                                                                                                                               
+cat first.html
+ls -l first.html
+chmod 777 first.html
+ls -l first.html
+sudo chown www-data:www-data first.html
+chmod 755 first.html                 
+ls -l first.html
