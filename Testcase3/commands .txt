@@ -1,0 +1,8 @@
+mkdir nodejs-api
+cd nodejs-api
+npm init -y
+npm install express
+npm install --save-dev @types/express
+ni index.js
+node index.js
+curl http://localhost:8080/health
